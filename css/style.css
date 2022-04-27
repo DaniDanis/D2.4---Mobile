@@ -145,13 +145,11 @@ li {
 .tituloProjetos {
     color: black;
     font-size: 22px;
-    margin-left: 10%;
     font-weight: 600;
     
   }
 
 .textocaixinhas {
-    padding-left: 9%;
     font-size: 16px;
     color: #767777;
     line-height: 1.5em;
@@ -217,7 +215,7 @@ li {
   font-size: 36px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  padding-top: 50px;
+  padding-top: 10px;
   margin: 0 auto;
   width: 460px;
 }
@@ -245,7 +243,18 @@ li {
 }
 
 .imagensRodaPe {
-  width: 245px;
+  width: 315px;
   margin: 0 auto;
   margin-top: 5%;
+}
+
+.conteudoCaixas {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.bordaIcones {
+  --fa-border-radius: 100%;
+  --fa-border-style: solid;
+  --fa-border-width: 5px;
 }
