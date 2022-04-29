@@ -356,95 +356,244 @@ li {
 
 /* -- medium -- */
 @media (min-width: 720px) {
-.inicio {
-  font-size: 36px;
-}
-.subtitulo{
-  font-size: 34px;
-}
-.texto {
-  font-size: 30px;
-}
-.botao {
-  font-size: 30px;
-}
-.tituloContratacao{
-  font-size: 34px;
-}
-.textoContratacao {
-  font-size: 30px;
-}
-.textolista {
-  font-size: 26px;
-}
-.porcentagem {
-  font-size: 24px;
-}
+  .inicio {
+    font-size: 36px;
+  }
+  .subtitulo, .tituloContratacao, .projetos {
+    font-size: 34px;
+  }
+  .texto, .botao, .textoContratacao, .bordaIcones, .email {
+    font-size: 30px;
+  }  
+  
+  .textolista {
+    font-size: 26px;
+  }
+  .porcentagem {
+    font-size: 24px;
+  }
+  
+  .barrinha1, .barrinha2, .barrinha3, .barrinha4 {
+    height: 20px;
+  }
+  
+  .quadradinhos {
+    margin-top: 85%;
+  }
+    
+  .listrinha1, .listrinha2, .listrinha3 {
+    height: 5px;
+  }
+  
+  .linha {
+    width: 160px;
+  }
+  
+  .quadradinhos {
+    height: 100vw;
+  }
+  
+  .caixaProjetos {
+    height: 18vw;
+  }
+  
+  .tituloProjetos {
+    font-size: 22px;
+  }
+  
+  .textocaixinhasm, .links {
+    font-size: 18px;
+  }
+  
+  .contato {
+    bottom: 95px;
+  }
 
-.barrinha1, .barrinha2, .barrinha3, .barrinha4 {
-  height: 20px;
-}
+  .textoContatos {
+    font-size: 20px;
+  }
+  
+  .imagensRodaPe {
+    width: 40%;
+  }
+  
+  .email {
+     width: 55%;
+  }
+  
+  .todosLinks {
+    width: 48%;
+  }
+  
+  .creditos {
+    font-size: 16px;
+    width: 50%;
+  }
+  }
 
-.quadradinhos {
-  margin-top: 85%;
-}
+/* -- large -- */
+@media (min-width: 960px) {
+  .inicio {
+    font-size: 46px;
+  }
+  .subtitulo, .tituloContratacao, .projetos, .titulo {
+    font-size: 44px;
+  }
+  .texto, .botao, .textoContratacao, .email {
+    font-size: 36px;
+  }  
+  
+  .textolista {
+    font-size: 36px;
+  }
+  .porcentagem {
+    font-size: 30px;
+  }
+  
+  .barrinha1, .barrinha2, .barrinha3, .barrinha4 {
+    height: 25px;
+  }
+  
+  .quadradinhos {
+    margin-top: 95%;
+  }
+    
+  .listrinha1, .listrinha2, .listrinha3 {
+    height: 6px;
+  }
+  
+  .linha {
+    margin-top: 15px;
+    width: 250px;
+  }
+  
+  .quadradinhos {
+    height: 100vw;
+  }
+  
+  .caixaProjetos {
+    height: 18vw;
+  }
+  
+  .tituloProjetos {
+    font-size: 28px;
+  }
+  
+  .textocaixinhas, .links {
+    font-size: 22px;
+  }
 
-.projetos {
-  font-size: 34px;
-}
+  .contato {
+    bottom: 150px;
+    height: 20vw;
+  }
+  
+  .textoContatos {
+    font-size: 28px;
+  }
+  
+  .imagensRodaPe {
+    width: 35%;
+  }
+  
+  .email {
+     width: 45%;
+  }
+  
+  .todosLinks {
+    width: 48%;
+  }
 
-.listrinha1, .listrinha2, .listrinha3 {
-  height: 5px;
-}
+  .bordaIcones {
+    font-size: 45px;
+  }
+  
+  .creditos {
+    font-size: 16px;
+    width: 50%;
+  }
+  }
 
-.linha {
-  width: 160px;
-}
+  /* -- x-large -- */
+@media (min-width: 1200px) {
+   .inicio {
+    font-size: 56px;
+  }
+  .subtitulo, .tituloContratacao, .projetos, .titulo {
+    font-size: 54px;
+  }
+  .texto, .botao, .textoContratacao, .email {
+    font-size: 40px;
+  }  
+  
+  .textolista {
+    font-size: 42px;
+  }
+  .porcentagem {
+    font-size: 36px;
+  }
+  
+  .barrinha1, .barrinha2, .barrinha3, .barrinha4 {
+    height: 25px;
+  }
+  
+  .quadradinhos {
+    margin-top: 95%;
+  }
+    
+  .listrinha1, .listrinha2, .listrinha3 {
+    height: 6px;
+  }
+  
+  .linha {
+    margin-top: 20px;
+    width: 350px;
+    padding-right: 0;
+  }
+  
+  .quadradinhos {
+    height: 100vw;
+  }
+  
+  .caixaProjetos {
+    height: 18vw;
+  }
+  
+  .tituloProjetos {
+    font-size: 38px;
+  }
+  
+  .textocaixinhas, .links {
+    font-size: 34px;
+  }
 
-.quadradinhos {
-  height: 100vw;
-}
+  .contato {
+    bottom: 175px;
+    height: 20vw;
+  }
+  
+  .textoContatos {
+    font-size: 34px;
+  }
+  
+  .imagensRodaPe {
+    width: 29%;
+  }
+  
+  .email {
+     width: 45%;
+  }
+  
+  .todosLinks {
+    width: 48%;
+  }
 
-.caixaProjetos {
-  height: 18vw;
-}
-
-.tituloProjetos {
-  font-size: 22px;
-}
-
-.textocaixinhas {
-  font-size: 18px;
-}
-
-.textoContatos {
-  font-size: 20px;
-}
-
-.imagensRodaPe {
-  width: 40%;
-}
-
-.bordaIcones {
-  font-size: 30px;
-}
-.email {
-  font-size: 30px;
-  width: 55%;
-}
-
-.todosLinks {
-  width: 48%;
-}
-
-.links {
-  font-size: 18px;
-}
-
-.creditos {
-  font-size: 16px;
-  width: 50%;
-}
-
-
+  .bordaIcones {
+    font-size: 55px;
+  }
+  
+  .creditos {
+    font-size: 28px;
+    width: 50%;
+  }
   }
