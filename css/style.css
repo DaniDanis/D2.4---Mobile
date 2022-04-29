@@ -468,11 +468,16 @@ li {
   }
   
   .quadradinhos {
-    height: 100vw;
+    height: 80vw;
   }
   
   .caixaProjetos {
-    height: 18vw;
+    height: 28vw;
+    padding-bottom: 0%;
+  }
+
+  .conteudoCaixas {
+    font-size: 25px;
   }
   
   .tituloProjetos {
@@ -556,7 +561,11 @@ li {
   }
   
   .caixaProjetos {
-    height: 18vw;
+    height: 14vw;
+  }
+
+  .conteudoCaixas {
+    font-size: 30px;
   }
   
   .tituloProjetos {
